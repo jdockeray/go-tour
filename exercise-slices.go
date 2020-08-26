@@ -1,8 +1,9 @@
-// Exercise: Slices
-package main
+package tour
 
 import (
 	"fmt"
+
+	"golang.org/x/tour/pic"
 )
 
 // Pic ...
@@ -22,6 +23,6 @@ func Pic(dx, dy int) [][]uint8 {
 	return sliceA
 }
 
-// func main() {
-// 	pic.Show(Pic)
-// }
+func main() {
+	pic.Show(Pic)
+}

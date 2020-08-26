@@ -1,9 +1,7 @@
-package main
+package tour
 
 import (
 	"strings"
-
-	"golang.org/x/tour/wc"
 )
 
 // WordCount It should return a map of the counts of each “word” in the string s.
@@ -26,6 +24,6 @@ func WordCount(s string) map[string]int {
 	return wordCount
 }
 
-func main() {
-	wc.Test(WordCount)
-}
+// func main() {
+// 	wc.Test(WordCount)
+// }
